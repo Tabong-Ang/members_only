@@ -21,4 +21,5 @@ class PostsController < ApplicationController
   private 
     def post_params
       params.expect(post: [:title, :content])
+    end
 end
